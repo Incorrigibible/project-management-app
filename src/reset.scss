@@ -85,3 +85,13 @@ meter {
 :where([draggable="true"]) {
     -webkit-user-drag: element;
 }
+
+input {
+    font-size: 40px;
+    border: solid 1px green;
+}
+
+button {
+    font-size: 40px;
+    background-color: blue;
+}

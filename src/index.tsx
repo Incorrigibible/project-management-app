@@ -8,12 +8,17 @@ import '@fontsource/roboto/700.css'
 import './reset.scss'
 import {App} from './components/App/App'
 import {BrowserRouter} from 'react-router-dom'
+import './firebase'
+import {Provider} from 'react-redux'
+import store from './store/store'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <Provider store={store}>
+        <App />
+      </Provider>
     </BrowserRouter>
   </React.StrictMode>
 )

@@ -1,9 +1,12 @@
-.container {
-    width: 100%;
-    margin: 0 auto;
 
-    a {
-        color: blue;
-        text-decoration: underline;
-    }
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-top: 60px;
+
+
+    // a {
+    //     color: blue;
+    //     text-decoration: underline;
+    // }
 }

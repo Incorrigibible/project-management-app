@@ -6,7 +6,7 @@ export const SignUp: React.FC = () => {
 
     return (
         <Box component='form' >
-            <Title title={'Зарегистрируйся'} selector={'title'} />
+            <Title title={'Создайте аккаунт'} selector={'title'} />
         </Box>
     )
 }
